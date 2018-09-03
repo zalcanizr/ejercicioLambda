@@ -13,7 +13,8 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-
+        //crear objeto de tipo IFuncional
+        //parametro de entrada-> funcion logica o implementacion del método
         IFuncional f= (multiplicando, multiplicador) -> (multiplicando+multiplicador);
         double suma=f.calculadora(multiplicando,multiplicador);
         System.out.println("la suma de los números es: "+ suma);
